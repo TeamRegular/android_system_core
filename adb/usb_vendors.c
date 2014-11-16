@@ -159,6 +159,8 @@
 #define VENDOR_ID_NOKIA         0x0421
 // HP's USB Vendor ID
 #define VENDOR_ID_HP            0x03F0
+// MadCatz's USB VENDO ID
+#define VENDOR_ID_MADCATZ       0x0738
 
 /** built-in vendor list */
 int builtInVendorIds[] = {
@@ -224,6 +226,7 @@ int builtInVendorIds[] = {
     VENDOR_ID_ECS,
     VENDOR_ID_NOKIA,
     VENDOR_ID_HP,
+    VENDOR_ID_MADCATZ,
 };
 
 #define BUILT_IN_VENDOR_COUNT    (sizeof(builtInVendorIds)/sizeof(builtInVendorIds[0]))
